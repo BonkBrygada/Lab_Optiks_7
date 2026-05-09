@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.28)  9 MAY 2026 13:30
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.28)  9 MAY 2026 14:43
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2578,7 +2578,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:7,2:53074,3:15549,4:2119,5:747,6:54,7:14872,8:126,9:5883,10:24
 ,11:1052
  68305 multiletter control sequences out of 65536+600000
- 103 fonts using 61070083 bytes
+ 103 fonts using 61069991 bytes
  106i,23n,116p,1607b,3125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMath-Bo
 ok.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputermodern/NewCM
@@ -2586,7 +2586,7 @@ ok.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputermodern/NewCM
 NewCMMath-Book.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputer
 modern/NewCM10-Book.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcom
 putermodern/NewCM10-Bold.otf>
-Output written on main.pdf (11 pages, 171553 bytes).
+Output written on main.pdf (11 pages, 171322 bytes).
 
 PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
