@@ -1,0 +1,36 @@
+\begin{figure}[!h]
+	\begin{tikzpicture}
+		\begin{axis}[height=0.6\linewidth,
+			width=0.9\linewidth,
+			xlabel={$\varepsilon, {}^{\circ}$},
+			ylabel={$I,$ поділки},
+			legend pos=south west,
+			]
+			\addplot[DataStyle] table[x error=DeltaAlpha, y error=DeltaI] \PlateSeriesBruster;
+			\pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}
+			\getelem[\PlateSeriesBrusterPar]{0}{n}{\n}
+			\xdef\nPlateSeries{\n}
+			\getelem[\PlateSeriesBrusterPar]{0}{a}{\a}
+			\getelem[\PlateSeriesBrusterPar]{0}{b}{\b}
+			\xdef\bSix{\b}
+			\getelem[\PlateSeriesBrusterPar]{0}{c}{\c}
+			\getelem[\PlateSeriesBrusterPar]{0}{nerr}{\nErr}
+			\xdef\nPlateSeriesErr{\nErr}
+			\getelem[\PlateSeriesBrusterPar]{0}{aerr}{\aErr}
+			\getelem[\PlateSeriesBrusterPar]{0}{berr}{\bErr}
+			\xdef\bFourFiveErr{\bErr}				
+			\getelem[\PlateSeriesBrusterPar]{0}{cerr}{\cErr}
+			\addplot[AproxStyle, domain=0:90] {\a*((\n^2*cos(x-\b)-sqrt(\n^2-(sin(x-\b))^2))/(\n^2*cos(x-\b)+sqrt(\n^2-(sin(x-\b))^2)))^2+\c};
+			\addlegendentry{Експереминтальні дані}
+			\addlegendentry[text depth=1.5em]{Апроксимована залежність\\$I=I_0\frac{n^2\cos(\varepsilon-b)-\sqrt{N^2-\sin(\varepsilon-b)}}{n^2\cos(\varepsilon-b)+\sqrt{n^2+\sin(\varepsilon-b)}}+I_{nt}$}
+			\node[fill=none, draw=black, anchor=north west, align=left] at (axis description cs:0.05,0.6) {
+				$n=\printwitherror{\n}{\nErr}$\\
+				$I_0=\printwitherror{\a}{\aErr}$\\
+				$b=\printwitherror{\b}{\bErr},\ {}^{\circ}$\\
+				$I_{nt}=\printwitherror{\c}{\cErr}$};
+			\pgfkeys{/pgf/fpu=false}
+		\end{axis}
+	\end{tikzpicture}
+	\label{fig:PlateSeriesBruster}
+	\caption{залежність $I(\alpha)$. Знаходження $n$ стопи пластин}
+\end{figure}

@@ -1,0 +1,7 @@
+%\input{\detokenize{|gnuplot -e 'set fit logfile ''fitscript/fit.log'';'}}
+\input{\detokenize{|cd fitscript && gnuplot -c fitTwoPol.gp ''../data/TwoPolDisrapted.dat'' TwoPolDisraptedPar.txt}} % Я заходжу в паку fitscript, бо мені зручніше, щоб там записувався fit.log
+\input{\detokenize{|cd fitscript && gnuplot -c fitTwoPol.gp ''../data/TwoPol.dat'' TwoPolPar.txt}}
+\input{\detokenize{|cd fitscript && gnuplot -c fitTwoPol.gp ''../data/NikolPris.dat'' NikolPrisPar.txt}}
+\input{\detokenize{|cd fitscript && gnuplot -c fitTwoPol.gp ''../data/horPolPinck.dat'' horPolPinckPar.txt}}
+\input{\detokenize{|cd fitscript && gnuplot -c fitBruster.gp ''../data/BlackMirrorBruster.dat'' BlackMirrorBrusterPar.txt}}
+\input{\detokenize{|cd fitscript && gnuplot -c fitBruster.gp ''../data/PlateSeriesBruster.dat'' PlateSeriesBrusterPar.txt}}

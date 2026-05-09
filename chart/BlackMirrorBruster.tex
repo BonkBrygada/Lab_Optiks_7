@@ -1,0 +1,36 @@
+\begin{figure}[!h]
+	\begin{tikzpicture}
+		\begin{axis}[height=0.6\linewidth,
+			width=0.9\linewidth,
+			xlabel={$\varepsilon, {}^{\circ}$},
+			ylabel={$I,$ поділки},
+			legend pos=north west,
+			]
+			\addplot[DataStyle] table[x error=DeltaAlpha, y error=DeltaI] \BlackMirrorBruster;
+			\pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}
+			\getelem[\BlackMirrorBrusterPar]{0}{n}{\n}
+			\xdef\nBlackMirror{\n}
+			\getelem[\BlackMirrorBrusterPar]{0}{a}{\a}
+			\getelem[\BlackMirrorBrusterPar]{0}{b}{\b}
+			\xdef\bFive{\b}
+			\getelem[\BlackMirrorBrusterPar]{0}{c}{\c}
+			\getelem[\BlackMirrorBrusterPar]{0}{nerr}{\nErr}
+			\xdef\nBlackMirrorErr{\nErr}
+			\getelem[\BlackMirrorBrusterPar]{0}{aerr}{\aErr}
+			\getelem[\BlackMirrorBrusterPar]{0}{berr}{\bErr}
+			\xdef\FiveErr{\bErr}				
+			\getelem[\BlackMirrorBrusterPar]{0}{cerr}{\cErr}
+			\addplot[AproxStyle, domain=0:90] {\a*((\n^2*cos(x-\b)-sqrt(\n^2-(sin(x-\b))^2))/(\n^2*cos(x-\b)+sqrt(\n^2-(sin(x-\b))^2)))^2+\c};
+			\addlegendentry{Експереминтальні дані}
+			\addlegendentry[text depth=1.5em]{Апроксимована залежність\\$I=I_0\frac{n^2\cos(\varepsilon-b)-\sqrt{N^2-\sin(\varepsilon-b)}}{n^2\cos(\varepsilon-b)+\sqrt{n^2+\sin(\varepsilon-b)}}+I_{nt}$}
+			\node[fill=none, draw=black, anchor=north west, align=left] at (axis description cs:0.05,0.7) {
+				$n=\printwitherror{\n}{\nErr}$\\
+				$I_0=\printwitherror{\a}{\aErr}$\\
+				$b=\printwitherror{\b}{\bErr},\ {}^{\circ}$\\
+				$I_{nt}=\printwitherror{\c}{\cErr}$};
+			\pgfkeys{/pgf/fpu=false}
+		\end{axis}
+	\end{tikzpicture}
+	\label{fig:BlackMirrorBruster}
+	\caption{залежність $I(\alpha)$. Знаходження $n$ чорного дзеркала}
+\end{figure}

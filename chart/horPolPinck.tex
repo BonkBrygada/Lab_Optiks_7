@@ -1,0 +1,30 @@
+	\begin{figure}[!h]
+	\begin{tikzpicture}
+		\begin{axis}[height=0.6\linewidth,
+			width=0.9\linewidth,
+			xlabel={$\alpha, {}^{\circ}$},
+			ylabel={$I,$ поділки},
+			legend pos=south west,
+			]
+			\addplot[DataStyle] table[x error=DeltaAlpha, y error=DeltaI] \horPolPinck;
+			\pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}
+			\getelem[\horPolPinckPar]{0}{a}{\a}
+			\getelem[\horPolPinckPar]{0}{b}{\b}
+			\xdef\bFour{\b}
+			\getelem[\horPolPinckPar]{0}{c}{\c}
+			\getelem[\horPolPinckPar]{0}{aerr}{\aErr}
+			\getelem[\horPolPinckPar]{0}{berr}{\bErr}
+			\xdef\bFourErr{\bErr}				
+			\getelem[\horPolPinckPar]{0}{cerr}{\cErr}
+			\addplot[AproxStyle, domain= -5:195] {\a*(cos(x-\b))^2+\c};
+			\addlegendentry{Експереминтальні дані}
+			\addlegendentry[text depth=1em]{Апроксимована залежність\\$I=I_0\cos^2(\alpha-b)+I_{nt}$}
+			\node[fill=none, draw=black, anchor=north east, align=left] at (axis description cs:0.95,0.95) {$I_0=\printwitherror{\a}{\aErr}$\\
+				$b=\printwitherror{\b}{\bErr},\ {}^{\circ}$\\
+				$I_{nt}=\printwitherror{\c}{\cErr}$};
+			\pgfkeys{/pgf/fpu=false}
+		\end{axis}
+	\end{tikzpicture}
+	\label{fig:horPolPinck}
+	\caption{залежність $I(\alpha)$. Знаходження дозволеної площини поляризації}
+\end{figure}

@@ -1,0 +1,21 @@
+\begin{table}[!h]
+	\label{tab:NikolPrisData}
+	\centering
+	\caption{Заміри для призми Ніколя}
+	\pgfplotstabletypeset[
+	%every last row/.append style={after row={Так то й так aaaaaaaaaaaaaaaaaaaaaaaaaaaaa}},
+	fixed, fixed zerofill, precision=1,
+	%
+	columns={alpha, I,alpha, I,alpha, I,alpha, I,alpha, I},
+	display columns/0/.style={select equal part entry of={0}{5}, column name={$\alpha,^\circ$}},
+	display columns/1/.style={select equal part entry of={0}{5}, column name={$I$}},
+	display columns/2/.style={select equal part entry of={1}{5}, column name={$\alpha,^\circ$}},
+	display columns/3/.style={select equal part entry of={1}{5}, column name={$I$}},
+	display columns/4/.style={select equal part entry of={2}{5}, column name={$\alpha,^\circ$}},
+	display columns/5/.style={select equal part entry of={2}{5}, column name={$I$}},
+	display columns/6/.style={select equal part entry of={3}{5}, column name={$\alpha,^\circ$}},
+	display columns/7/.style={select equal part entry of={3}{5}, column name={$I$}},
+	display columns/8/.style={select equal part entry of={4}{5}, column name={$\alpha,^\circ$}},
+	display columns/9/.style={select equal part entry of={4}{5}, column name={$I$}},
+	]{\NikolPris}
+\end{table}

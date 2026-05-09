@@ -1,0 +1,88 @@
+%--------------Створення єдиного стилю для табилць---------------
+
+
+% Source - https://tex.stackexchange.com/a/762592
+% Posted by Ulrike Fischer
+% Retrieved 2026-05-06, License - CC BY-SA 4.0
+\makeatletter
+\pgfkeys{%
+	/pgfplots/table/select equal part entry of/.style 2 args={%
+		/pgfplots/table/row predicate/.code={%
+			\pgfplotstableuserowtrue
+			\begingroup
+			% this group re-uses counters as temporary variables.
+			\c@pgfplotstable@colindex=\pgfplotstablerows\relax
+			%\divide\c@pgfplotstable@colindex by#2\relax %-------- removed
+			\c@pgfplotstable@colindex\UseName{int_div_round:nn}{\c@pgfplotstable@colindex}{#2}% ------added
+			\edef\pgfplotstablepartsize{\the\c@pgfplotstable@colindex}%
+			% This here should create empty cells such that
+			% remaining entries are distributed equally:
+			\c@pgfplotstable@rowindex=\c@pgfplotstable@colindex
+			\multiply\c@pgfplotstable@rowindex by#2\relax
+			%\showthe\c@pgfplotstable@rowindex \show\pgfplotstablerows
+			\ifnum\c@pgfplotstable@rowindex<\pgfplotstablerows\relax
+			\c@pgfplotstable@colindex=\pgfplotstablerows\relax
+			\advance\c@pgfplotstable@colindex by-\c@pgfplotstable@rowindex
+			\advance\c@pgfplotstable@colindex by\pgfplotstablepartsize
+			\edef\pgfplotstablepartsize{\the\c@pgfplotstable@colindex}%
+			\fi
+			%
+			\multiply\c@pgfplotstable@colindex by#1\relax
+			\ifnum##1<\c@pgfplotstable@colindex\relax
+			\aftergroup\pgfplotstableuserowfalse
+			\else
+			\advance\c@pgfplotstable@colindex by\pgfplotstablepartsize\relax
+			\ifnum##1<\c@pgfplotstable@colindex\relax
+			\else
+			\aftergroup\pgfplotstableuserowfalse
+			\fi
+			\fi
+			\endgroup
+		}%
+}}
+\makeatother
+
+\pgfplotstableset{
+	every even row/.style={
+		before row={\rowcolor[gray]{0.9}}},
+	every head row/.style={
+		before row=\toprule,after row={\midrule \bottomrule}},
+	every last row/.style={
+		after row=\bottomrule},
+}
+
+%-------------Стиль для для осей--------------------
+\pgfplotsset{
+	every axis/.style={%Стиль до, що застосовувмтиметься до кожної з осей
+		% Штирину, висоту, підписи осей слід задати в квадратних дужках
+		minor x tick num=4,
+		minor y tick num=4,
+		enlargelimits=0.03,
+		legend style={
+			fill=none,
+			legend pos=north west,
+			draw=none,
+			cells={anchor=west},
+			text width=200pt,
+		},
+		grid=both,
+		grid style={gray!30,
+			line width=0.25pt}, % Чи краще не заграватися з тонкими лініями, бо вони можуть не продрукуватися?
+		minor grid style={gray!10,
+			line width=0.125pt},
+	},
+	DataStyle/.style={				
+		only marks,
+		mark=*,
+		mark options={red, mark size=0.02cm},
+		error bars/.cd, x dir=both, x explicit,
+		y dir=both, y explicit,
+		error bar style={
+			black
+		},
+		error mark=|,
+		error mark options={
+			black
+		},},
+	AproxStyle/.style={no markers,update limits=false,blue,samples=200},
+}

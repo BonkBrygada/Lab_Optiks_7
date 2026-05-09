@@ -1,0 +1,213 @@
+% !TeX program=lualatex
+% !TeX encoding=utf8
+% !TeX spellcheck=uk_UA
+
+\input{preamble.tex}
+\input{style.tex}
+\input{commands.tex}
+
+\pgfplotstableread{"data/TwoPolDisrapted.dat"}{\TwoPolDisrapted}
+\pgfplotstableread{"data/TwoPol.dat"}{\TwoPol}
+\pgfplotstableread{"data/NikolPris.dat"}{\NikolPris}
+\pgfplotstableread{"data/horPolPinck.dat"}{\horPolPinck}
+\pgfplotstableread{"data/BlackMirrorBruster.dat"}{\BlackMirrorBruster}
+\pgfplotstableread{"data/PlateSeriesBruster.dat"}{\PlateSeriesBruster}
+
+\input{cmdcommands.tex}
+
+\pgfplotstableread{"fitscript/TwoPolDisraptedPar.txt"}{\TwoPolDisraptedPar}
+\pgfplotstableread{"fitscript/TwoPolPar.txt"}{\TwoPolPar}
+\pgfplotstableread{"fitscript/NikolPrisPar.txt"}{\NikolPrisPar}
+\pgfplotstableread{"fitscript/horPolPinckPar.txt"}{\horPolPinckPar}
+\pgfplotstableread{"fitscript/BlackMirrorBrusterPar.txt"}{\BlackMirrorBrusterPar}
+\pgfplotstableread{"fitscript/PlateSeriesBrusterPar.txt"}{\PlateSeriesBrusterPar}
+
+\begin{document}
+	\newcommand{\MyNumber}{7}
+	\newcommand{\MyTitle}{Вивчення поляризованого світла}
+	\input{title/title.tex}
+		\section{Перевірка закону Малюса}
+	\subsection{Теорія}
+	
+	Розглянемо дві поляризаційні плівки: перша буде слугувати власне поляризатором, а друга аналізатором. Позначимо $Ι_0$ --- максимальну інтенсивність світла, що потрапляє на детектор, за певного взаємного розташування поляроїдів, а $\alpha$ --- кут між цими площинами. Тоді $I$ --- інтенсивність світла, що приймає детектор залежить таким чином:
+	
+	\begin{equation}
+		\label{eq:MalusLaw}
+		I=I_0\cos^2{\alpha}
+	\end{equation}
+	
+	\subsection{Експериментальні подробиці}
+	
+	В першому експерименті використовувався кишеньковий ліхтарик, два поляроїди, датчик інтенсивності, амперметри та оптична лава на котрій розміщувалися рейтери із зазначеними елементами. В другому замість двох поляроїдів використовували призму Ніколя із закріпленою перед нею поляризаційною плівкою. На рухомому диску, в якому розміщувалися поляризаційні плівки або призма Ніколя нанесена шкала, а на корпусі є вказівник, що дозволяє виміряти зміну кута площини поляризації під час експерименту. Але шкала поляроїдів містила лише значення до 180, що спричиняє  двозначність замірів. Розглянемо детальніше датчик, він містить тонкий канал, котрий запобігає потраплянню стороннього світла на світло чутливий елемент. Тому його положення не має змінюватися під час однієї серії замірів, бажано навіть не торкатися, бо інакше зміниться напрямок спостереження.
+	
+	Ми припускаємо, що між інтенсивністю світла на датчику та силою силою струму, що надходить на амперметр є лінійна залежність. Тому будемо записувати всі заміри в поділках приладу. Для покращення точності замірів слід розмістити обладнання на такій відстані, щоб використовувався весь діапазон амперметра.
+	
+	Розглянемо обидва експерименти окремо.
+	
+	\subsection{Обробка результатів}
+	
+	\subsubsection{Дві поляризаційні плівки}
+	
+	Під час проведення замірив вимкнулося світло, тому ми почали нову серію замірів
+	У першій серії поляризатор розміщувався під кутом $\alpha_1=60.5$, а в другій $\alpha_2=30$
+	
+	Значення похибки ми брали рівним половині ціни поділки, для мікроамперметра та градусної шкали, тобто $0.5$ та $0.5^{\circ}$ відповідно.
+	
+	\pgfmathsetmacro{\alphaOne}{60.5}
+	\pgfmathsetmacro{\alphaTwo}{30}
+	
+	\input{table/PolData.tex}
+	\input{chart/PolDisrapted.tex}
+	\input{chart/Pol.tex}
+	Використовуючи результати експерименту наведені в табл.~\ref{tab:PolData} проведемо апроксимацію за \eqref{eq:MalusLaw}, внісши поправку на $I_{nt}$ --- інтенсивність природного світла. Ця інтенсивність може бути породженою, як і сторонніми джерелами, так і не досконалістю поляризаційних плівок або ж навіть систематичною похибкою мікроампера метра (ми не додумалися перевірити чи справді стрілка вказує на нуль, коли отвір заблокований непрозорим предметом). Графіки залежностей та коефіцієнти отримані з результатів апроксимації зображенні на рис.~\ref{fig:polDisrupted} та рис.~\ref{fig:Pol}, для перебитого та повноцінного експериментів відповідно.
+	
+	Оскільки умови першого та другого експеременту дещо відрізнялися, то очікувано, що $I_0$ та $I_{nt}$ будуть різними проте $b_1$ та $b_2$ мають збігатися з точністю до періоду функції $\cos^2(x-b)$, тобто $180^{\circ}$. Перевіримо рівність $b_2-b_1+(\alpha_1-\alpha_2)=n\cdot180^{\circ}$, де $n$ довільне ціле число. Проводячи розрахунки отримуємо
+	$\pgfmathprintnumber{\bTwo}-(\pgfmathprintnumber{\bOne})+\pgfmathprintnumber{\alphaOne}-\pgfmathprintnumber{\alphaTwo}=	\pgfmathparse{\bTwo-\bOne+\alphaOne-\alphaTwo} \pgfmathprintnumber[precision=3]{\pgfmathresult}$,
+	що в межах похибки $\Delta=\sqrt{\Delta b_1^2+\Delta b_1^2+2\Delta\alpha_1}=\pgfmathparse{sqrt(\bOneErr^2+\bTwoErr^2+2*0.5^2)}\pgfmathprintnumber{\pgfmathresult}$ відповідає $180^{\circ}$
+	
+	
+	\pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}%Якщо будуть проблеми з tikz то тереб вимкнути fpu
+	Також встановимо наскільки ефективним є перший та другий поляризатор в парі $\frac{I_max}{I_min}=\frac{I_0}{I_{nt}}+1=\printwitherror{\qualityTwo}{\qualityTwoErr}$. Наведемо це з значення для не повного експерименту
+	$\frac{I_max}{I_min}+1=\printwitherror{\qualityTwodisrapted}{\qualityTwodisraptedErr}$
+	\subsubsection{Призма Ніколя з поляризаційною плівкою перед нею}
+	
+	$\alpha$ --- кут повороту призми навколо осі паралельній основі оптичної лави.
+	Експеримент за своєю суттю нічим не відрізняється від попереднього, тому наведемо результати
+	
+	\input{table/NikolPrisData.tex}
+	\input{chart/NikolPris.tex}
+	
+	Ми бачимо, що точки від $0$ до $60{}^{\circ}$ можуть відхиляються від апроксимаційної кривої аж на $6$ поділок. Для даного відхилення можна висунути два пояснення: або призма Ніколя, котру ми використовували є дещо не симетричною або ж міститься певний люфт у поворотному механізмі, тоді покази на шкалі залежать від того, за чи проти годинникової шкали обертали призму. 
+	
+	Для перевірки асиметрії призми слід зробити заміри для двох трьох-обертів. А для встановлення впливу люфту слід провести серію вимірів обертаючи призму спершу в одному напрямку, а згодом в протилежному
+	
+	Також призма Ніколя має найкращу поляризаційну якість $\frac{I_{max}}{I_{min}}+1=\printwitherror{\qualityNikol}{\qualityNikolErr}$
+	
+	\section{Знаходження показника заломлення та діелектричної проникність}
+	
+	Цей експеримент виконаний неповністю, адже ми не провели заміри для різних положень поляроїда
+	
+	Ми наразі повели експеримент лише для горизонтально поляризованого світла, що падає на чорне дзеркало чи на стопу з пластин.
+	
+	\subsection{Теорія}
+	
+	Використовуючи енергетичні коефіцієнти для перпендикулярно поляризованого світла закон Снеліуса та деякі тригонометричні співвідношення знайдемо залежність
+	
+	Показник заломлення для діелектричного матеріалу $n$, тоді за законом Снеліуса: $\sin\varepsilon_1=n\sin\varepsilon_2$, де $\varepsilon_1$ --- кут падіння $\varepsilon_2$ --- кут заломлення. $\tan\varepsilon_2=\sqrt{\frac{1}{\cos^2\varepsilon_2}-1}=\sqrt{\frac{1}{1-\sin^2\varepsilon_1/n^2}-1}=\sqrt{\frac{n^2}{n^2-\sin^2\varepsilon_1}-1}=\sin\varepsilon_1\sqrt{\frac{1}{n^2-\sin^2\varepsilon_1}}$
+	
+	\begin{multline*}
+		\label{eq:EnergCoefCulc}
+		R_{\parallel}=\frac{\tan^2(\varepsilon_1-\varepsilon_2)}{\tan^2(\varepsilon_1+\varepsilon_2)}=\frac{\sin^2(\varepsilon_1-\varepsilon_2)\cos^2(\varepsilon_1+\varepsilon_2)}{\cos^2(\varepsilon_1-\varepsilon_2)\sin^2(\varepsilon_1+\varepsilon_2)}=\\
+		=\frac{4\left(\sin(2\varepsilon_1)-\sin(2\varepsilon_2)\right)^2}{4\left(\sin(2\varepsilon_1)+\sin(2\varepsilon_2)\right)^2}
+		=\left(\frac{2\sin\varepsilon_1\cos\varepsilon_1-2\frac{\sin\varepsilon_1}{n}\sqrt{1-\frac{\sin^2\varepsilon_1}{n^2}}}{2\sin\varepsilon_1\cos\varepsilon_1+2\frac{\sin\varepsilon_1}{n}\sqrt{1-\frac{\sin^2\varepsilon_1}{n^2}}}\right)^2
+	\end{multline*}
+	
+	\begin{equation}
+		\label{eq:EnergCoef}
+		R_{\parallel}=\left(\frac{n^2\cos\varepsilon_1-\sqrt{n^2-\sin^2\varepsilon_1}}{n^2\cos\varepsilon_1+\sqrt{n^2-\sin^2\varepsilon_1}}\right)^2
+	\end{equation}
+	
+	З \eqref{eq:EnergCoef} знайдемо інтенсивність світла, що теоретично потраплятиме на детектор
+	
+	\begin{equation}
+		\label{eq:IntesityPerp}
+		I=I_0 R_{\parallel}=I_0\left(\frac{n^2\cos\varepsilon_1-\sqrt{n^2-\sin^2\varepsilon_1}}{n^2\cos\varepsilon_1+\sqrt{n^2-\sin^2\varepsilon_1}}\right)^2
+	\end{equation}
+	
+	Знайдемо кут Брюстера та його похибку в радіанах
+	\begin{equation}
+		\label{eq:BrusterAngle}
+		\varphi=\arctan n\quad \Delta\varphi=\frac{\Delta n}{1+n^2}
+	\end{equation}
+	
+	Знайдемо діелектричну проникність матеріалу
+	\begin{equation}
+		\label{eq:RelativePermittivity}
+		\varepsilon=n^2\pm 2n\Delta n
+	\end{equation}
+	
+	\subsection{Експериментальні подробиці}
+	
+	Ми використовували поляроїд з мідним-рожевим обрамленням, як поляризатор чорне дзеркало або стопу пластин, площини яких були орієнтовані вертикально та оберталася навколо вертикальної осі на основі з розміченою градусною шкалою. Також навколо вертикальної осі обертався датчик освітленості, проте на відміну від попереднього, цей вже не містив хорошої бленди, тому нам доводилося накривати його аркушем паперу. А ще на наступний тиждень після проведення лабораторної роботи я зауважив, що основа не зафіксована намертво на рейтері та може обертатися. Беручи до уваги всі вище зазначені фактори запишемо з \eqref{eq:IntesityPerp} експериментальну залежність 
+	\begin{equation}
+		\label{eq:IntesityPerpExper}
+		I=I_0 R_{\parallel}+I_{nt}=I_0 \frac{n^2\cos(\varepsilon_1-b)-\sqrt{n^2-\sin^2(\varepsilon_1-b)}}{n^2\cos(\varepsilon_1-b)+\sqrt{n^2-\sin^2(\varepsilon_1-b)}}+I_{nt}
+	\end{equation}  
+	
+	\subsubsection{Знаходження кута, при якому світло буде поляризованим в горизонтальній площині}
+	
+	Важливо усвідомлювати, що \eqref{eq:IntesityPerpExper}, виводилося за умови якщо світло, що падатиме на чорне дзеркало є паралельно поляризованим, тобто нам необхідно знайти таке положення поляризатора за якого ця умова буде виконуватися. Зробимо заміри розмістивши дзеркало під кутом, що близький до кута Брюстера та наведемо їх в таблиці \ref{tab:horPolPinck}, мінімум на графіку інтенсивності буде відповідати пе горизонтальній поляризації 
+	
+	\input{table/horPolPinck.tex}
+	\input{chart/horPolPinck.tex}
+	
+	Значення $b$ відповідає максимуму, тоді $\alpha_{min}=(90-b)^{\circ}=(\pgfmathprintnumber{\bFour}-90)^{\circ}=\pgfmathparse{\bFour-90}\pgfmathprintnumber{\pgfmathresult}^{\circ}$. Подальші вимірювання ми будемо проводити при цьому куті мідно-рожевого поляроїда
+	
+	Знаючи це можна не проводячи експеримент зрозуміти, який кут треба встановити на чорному поляроїді з чорним обрамленням, щоб його дозволена площина була горизонтальною позначимо за $\theta_1$ та $\theta_2=\printwitherror{\bFour}{\bFourErr}$
+	кут між нульовим напрямком та дозволеною площиною у чорного та мідно-рожевого поляризаторів відповідно з попередніх позначень $\alpha_1=\alphaTwo$, а $\alpha_2$ кут виставлений на мідно-рожевому поляризаторі, тобто який ми змінювали під час перших двох експериментів. Тоді кут $\psi=(\theta_1+\alpha_1)-(\theta_2+\alpha_2)$ --- кут між дозволеними площинами пропускання двох поляроїдів. Виразимо $\theta_1=(\theta_2+\alpha_2)-\alpha_1+\phi$. 
+	З \eqref{eq:MalusLaw} зрозуміло, що коли $\alpha_2=\printwitherror{\bTwo}{\bTwoErr} {}^{\circ}$, то $\phi=0$. Звідси отримуємо кут між нульовим напрямком для чорного поляроїда \pgfmathparse{\bFour+\bTwo-\alphaTwo} 
+	$\theta_1=(\pgfmathprintnumber{\pgfmathresult}\pm 0.71)^{\circ}$ 
+	
+	Але слід пам'ятати про двозначність результатів, тому результат може містити помилку пов'язану з розвертанням чорного поляроїда, тоді дозволена кут між нульовим напрямком і дозволеною площиною може визначатися, як $\psi=-(\theta_1+\alpha_1)-(\theta_2+\alpha_2)$, і тоді
+	\pgfmathparse{-\bFour-\bTwo-\alphaTwo}  $\theta_1=(\pgfmathprintnumber{\pgfmathresult}\pm 0.71)^{\circ}$ 
+	
+	\subsection{Обробка результатів}
+	Коли кути падіння були близьким до прямого кута, то мікроамперметр при множнику $1$ зашкалював і ми були змушені переключати на множник $10$, що призводило до відповідно збільшення похибки в десять разів
+	\subsubsection{Чорне дзеркало}
+	
+	\input{table/BlackMirrorBruster.tex}
+	\input{chart/BlackMirrorBruster.tex}
+		Кут Брюстера для чорного дзеркала за \eqref{eq:BrusterAngle} становить \pgfmathsetmacro{\BrusterAngBlackMirror}{atan(\nBlackMirror)}
+	\pgfmathsetmacro{\BrusterAngBlackMirrorErr}{\nBlackMirrorErr/(1+\nBlackMirror^2)*180/pi} $\varphi_{BM}=\arctan \pgfmathprintnumber{\nBlackMirror}=\pgfmathprintnumber{\BrusterAngBlackMirror}^{\circ}$
+	
+	\pgfmathparse{pi}$\Delta \varphi_{BM}=\frac{180\Delta n}{\pi(1+n^2)}=\frac{180\cdot\pgfmathprintnumber{\nBlackMirrorErr}}{\pgfmathprintnumber{\pgfmathresult}(1+\pgfmathprintnumber{\nBlackMirror}^2)}=\pgfmathprintnumber{\BrusterAngBlackMirrorErr}^{\circ}$
+	
+	Діелектрична проникність поверхні чорного дзеркала за \eqref{eq:RelativePermittivity} становить
+	\pgfmathsetmacro{\PermittivityBlackMirror}{\nBlackMirror^2}
+	\pgfmathsetmacro{\PermittivityBlackMirrorErr}{2*\nBlackMirrorErr*\nBlackMirror}
+	$\varepsilon=\pgfmathprintnumber{\nBlackMirror}^2=\pgfmathprintnumber{\PermittivityBlackMirror}$
+	
+	$\Delta \varepsilon=2\cdot\pgfmathprintnumber{\nBlackMirror}\cdot\pgfmathprintnumber{\nBlackMirrorErr}=\pgfmathprintnumber{\PermittivityBlackMirrorErr}$
+	
+	\subsubsection{Стопа пластин}
+	
+	\input{table/PlateSeriesBruster}
+	\input{chart/PlateSeriesBruster}
+	
+	
+	\pgfmathsetmacro{\BrusterAngPlateSeries}{atan(\nPlateSeries)}
+	\pgfmathsetmacro{\BrusterAngPlateSeriesErr}{\nPlateSeriesErr/(1+\nPlateSeries^2)*180/pi}
+	Кут Брюстера для стопи пластин за \eqref{eq:BrusterAngle} становить $\varphi_{BM}=\arctan \pgfmathprintnumber{\nPlateSeries}=\pgfmathprintnumber{\BrusterAngPlateSeries}^{\circ}$
+	
+	\pgfmathparse{pi}$\Delta \varphi_{BM}=\frac{180\Delta n}{\pi(1+n^2)}=\frac{180\cdot\pgfmathprintnumber{\nPlateSeriesErr}}{\pgfmathprintnumber{\pgfmathresult}(1+\pgfmathprintnumber{\nPlateSeries}^2)}=\pgfmathprintnumber{\BrusterAngPlateSeriesErr}^{\circ}$
+	
+	Діелектрична проникність стопи пластин за \eqref{eq:RelativePermittivity} становить
+	\pgfmathsetmacro{\PermittivityPlateSeries}{\nPlateSeries^2}
+	\pgfmathsetmacro{\PermittivityPlateSeriesErr}{2*\nPlateSeriesErr*\nPlateSeries}
+	$\varepsilon=\pgfmathprintnumber{\nPlateSeries}^2=\pgfmathprintnumber{\PermittivityPlateSeries}$
+	
+	$\Delta \varepsilon=2\cdot\pgfmathprintnumber{\nPlateSeries}\cdot\pgfmathprintnumber{\nPlateSeriesErr}=\pgfmathprintnumber{\PermittivityPlateSeriesErr}$
+	
+	\section{Висновки}
+	В результаті роботи ми підтвердили закон Малюса та встановили:
+	\begin{itemize}
+		\item для пари чорного та мідно-рожевого поляризатора $\frac{I_max}{I_min}=\printwitherror{\qualityTwo}{\qualityTwoErr}$, а для \item для призми Ніколя зі встановлено перед нею пластиною $\frac{I_max}{I_min}=\printwitherror{\qualityNikol}{\qualityNikolErr}$
+		\item кут між напрямком нуль та дозволеною площиною поляризації для мідно-рожевого поляризатора $\theta_1=\printwitherror{\bFour}{\bFourErr}$
+	\end{itemize}
+	
+	Для чорного дзеркала встановили:
+	\begin{itemize}
+		\item Кут Брюстера $\varphi=\printinDMS{\BrusterAngBlackMirror}\pm\printinDMS{\BrusterAngBlackMirrorErr}$
+		\item Показник заломлення поверхні $n=\printwitherror{\nBlackMirror}{\nBlackMirrorErr}$
+		\item Діелектрична проникність поверхні $\varepsilon=\printwitherror{\PermittivityBlackMirror}{\PermittivityBlackMirrorErr}$
+	\end{itemize}
+	
+	Для стопи пластин встановили:
+	\begin{itemize}
+		\item Кут Брюстера $\varphi=\printinDMS{\BrusterAngPlateSeries}\pm\printinDMS{\BrusterAngPlateSeriesErr}$
+		\item Показник заломлення поверхні $n=\printwitherror{\nPlateSeries}{\nPlateSeriesErr}$
+		\item Діелектрична проникність поверхні $\varepsilon=\printwitherror{\PermittivityPlateSeries}{\PermittivityPlateSeriesErr}$
+	\end{itemize}
+	
+	\pgfkeys{/pgf/fpu=false}
+\end{document}

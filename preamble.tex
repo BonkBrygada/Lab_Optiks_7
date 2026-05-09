@@ -1,0 +1,56 @@
+
+
+\documentclass{article}
+
+\usepackage{fontsetup}
+\usepackage[fontsize=14pt]{fontsize}
+\usepackage[ukrainian]{babel}
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage{tabularray}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\graphicspath{{pic/}}
+\usepackage{wrapstuff}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{rotating}
+\usepackage{multirow}% Гадаю ця бібліотека не є обов'язковою, якщо є tabulararray
+\usepackage{float}
+
+\usepackage[
+colorlinks=true,
+urlcolor = blue, %Colour for external hyperlinks
+linkcolor  = red, %Colour of internal links
+citecolor  = green, %Colour of citations
+bookmarks = true,
+bookmarksnumbered=true,
+unicode,
+linktoc = all,
+hypertexnames=false,
+pdftoolbar=false,
+pdfpagelayout=TwoPageRight,
+pdfauthor={Sokalskyi B.T},
+pdfdisplaydoctitle=true,
+pdfencoding=auto
+]%
+{hyperref}
+
+
+\usepackage[%
+%    showframe,
+a4paper,%
+footskip=1cm,%
+headsep=0.3cm,%
+top=2cm, %поле зверху
+bottom=2cm, %поле знизу
+left=2.5cm, %поле ліворуч
+right=1cm, %поле праворуч
+]{geometry}
+
+%-----------Підключення необхідних графічних бібліотек---------
+\usepackage{tikz}
+\usepackage{pgfplots, pgfplotstable}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{intersections, calc, plotmarks, fpu}
+\usepackage{booktabs,colortbl}% Оскільки pgfplotstabe працює з tabular, тому треба використати ці пакети для розфарбовування таблиці

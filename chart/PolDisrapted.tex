@@ -1,0 +1,33 @@
+\begin{figure}[!h]
+\begin{tikzpicture}
+	\begin{axis}[height=0.6\linewidth,
+		width=0.9\linewidth,
+		xlabel={$\alpha, {}^{\circ}$},
+		ylabel={$I,$ поділки},
+		]
+		\addplot[DataStyle] table[x error=DeltaAlpha, y error=DeltaI] \TwoPolDisrapted;
+		\pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}
+		\getelem[\TwoPolDisraptedPar]{0}{a}{\a}
+		\getelem[\TwoPolDisraptedPar]{0}{b}{\b}
+		\xdef\bOne{\b}
+		\getelem[\TwoPolDisraptedPar]{0}{c}{\c}
+		\getelem[\TwoPolDisraptedPar]{0}{aerr}{\aErr}
+		\getelem[\TwoPolDisraptedPar]{0}{berr}{\bErr}
+		\xdef\bOneErr{\bErr}
+		\pgfmathparse{\a/\c+1}
+		\xdef\qualityTwodisrapted{\pgfmathresult}
+		\getelem[\TwoPolDisraptedPar]{0}{cerr}{\cErr}
+		\pgfmathparse{(\qualityTwodisrapted-1)*sqrt((\aErr/\a)^2+(\cErr/\c)^2)}
+		\xdef\qualityTwodisraptedErr{\pgfmathresult}				
+		\addplot[AproxStyle, domain= 30:195] {\a*(cos(x-\b))^2+\c};
+		\addlegendentry{Експереминтальні дані}
+		\addlegendentry[text depth=1em]{Апроксимована залежність\\$I=I_0\cos^2(\alpha-b)+I_{nt}$}
+		\node[fill=none, draw=black, anchor=south east, align=left] at (axis description cs:0.95,0.05) {$I_0=\printwitherror{\a}{\aErr}$\\
+			$b=\printwitherror{\b}{\bErr}, {}^{\circ}$\\
+			$I_{nt}=\printwitherror{\c}{\cErr}$};
+		\pgfkeys{/pgf/fpu=false}
+	\end{axis}
+\end{tikzpicture}
+\label{fig:polDisrupted}
+\caption{Залежність $I(\alpha)$ встановлена під час незавершеного експерименту з поляроїдами}
+\end{figure}

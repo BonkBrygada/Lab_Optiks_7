@@ -1,0 +1,37 @@
+\NewDocumentCommand{\getelem}{O{\data} m m m}{%m - mandatory -- обов'язковий параметр
+	\pgfplotstablegetelem{#2}{#3}\of#1
+	\pgfmathsetmacro{#4}{\pgfplotsretval}
+}
+
+%------------------Функція для оформлення змінної та її похибки похибок
+%перед записуванням даних слід додати \pgfkeys{/pgf/fpu, /pgf/fpu/output format=fixed}, особливо якщо похибка 1000000%
+% після слід додати \pgfkeys{/pgf/fpu=false}
+\NewDocumentCommand{\printwitherror}{m m}{%#1 a #2 aerr 
+	\pgfmathfloatparsenumber{#1}
+	\pgfmathfloattomacro{\pgfmathresult}{\FVal}{\ManVal}{\ExVal}
+	\pgfmathfloatparsenumber{#2}
+	\pgfmathfloattomacro{\pgfmathresult}{\FErr}{\ManErr}{\ExErr}
+	\pgfmathtruncatemacro{\pr}{ifthenelse(int(\ExVal-\ExErr+1)>0,int(\ExVal-\ExErr+1),int(0)}%Знаходимо точність відображення значення беручи до уваги лише один знак після крапки в похибці
+	%\pgfmathtruncatemacro замість \pgfmathsetmacro щоб відкинути зайві нулі бо інакше вони вивидуться в результат. Наприклад, \pgfkeys{/pgf/number format/.cd, precision=4.00000, zerofill, fixed} \pgfmathprintnumber{1.23456} видасть .000001.2346
+	%Використання int тут дуже важливе інакше макрос не коректно передаєтся в percision
+	\pgfkeys{/pgf/number format/.cd, precision=\pr, fixed zerofill,fixed}
+	(\pgfmathprintnumber{\ManVal}\pm
+	\pgfmathparse{\ManErr/10^(\ExVal-\ExErr)}
+	\pgfmathprintnumber{\pgfmathresult})
+	\ifnum \ExVal=0
+	\relax 
+	\else
+	\cdot 10^{\pgfmathprintnumber[zerofill=false,precision=0]{\ExVal}}
+	\fi
+}
+\NewDocumentCommand{\printinDMS}{m}{
+	\pgfkeys{/pgf/fpu, /pgf/number format/.cd, precision=0, fixed}
+	\pgfmathfloatparsenumber{#1}
+	\pgfmathsetmacro{\DegresNR}{\pgfmathresult}
+	\pgfmathsetmacro{\Degres}{int(\DegresNR)}
+	\pgfmathsetmacro{\MinutsNR}{(\DegresNR-\Degres)*60}
+	\pgfmathsetmacro{\Minuts}{int(\MinutsNR)}
+	\pgfmathsetmacro{\Seconds}{int((\MinutsNR-\Minuts)*60)}
+	\pgfmathprintnumber{\Degres}^{\circ} \pgfmathprintnumber{\Minuts}^ {\prime}\pgfmathprintnumber{\Seconds}^{\prime\prime}
+	\pgfkeys{/pgf/fpu=false}
+}

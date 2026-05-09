@@ -1,0 +1,35 @@
+%% Source - https://tex.stackexchange.com/a/18813
+%% Posted by Sharpie
+%% Retrieved 2026-05-08, License - CC BY-SA 3.0
+%
+%%luaargs.tex
+%\documentclass{article}
+%%\xdef\MyTitle{Pol}
+%\begin{document}
+%	
+%	\MyTitle	
+%
+%\end{document}
+% Source - https://tex.stackexchange.com/a/18813
+% Posted by Sharpie
+% Retrieved 2026-05-08, License - CC BY-SA 3.0
+
+%luaargs.tex
+\documentclass{article}
+
+\begin{document}
+	
+	Document args were:
+	
+	\begin{description}
+		
+		\directlua{
+		if not (arg == nil) then
+		for i,v in pairs(arg) do
+		tex.print("\string\\item[" .. i .. "]" .. v)
+		end
+		end
+		}
+		
+	\end{description}
+\end{document}
