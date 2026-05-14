@@ -15,7 +15,9 @@
 	%\pgfmathtruncatemacro замість \pgfmathsetmacro щоб відкинути зайві нулі бо інакше вони вивидуться в результат. Наприклад, \pgfkeys{/pgf/number format/.cd, precision=4.00000, zerofill, fixed} \pgfmathprintnumber{1.23456} видасть .000001.2346
 	%Використання int тут дуже важливе інакше макрос не коректно передаєтся в percision
 	\pgfkeys{/pgf/number format/.cd, precision=\pr, fixed zerofill,fixed}
-	(\pgfmathprintnumber{\ManVal}\pm
+	(
+	\ifnum \FVal=2 - \fi
+	\pgfmathprintnumber{\ManVal}\pm
 	\pgfmathparse{\ManErr/10^(\ExVal-\ExErr)}
 	\pgfmathprintnumber{\pgfmathresult})
 	\ifnum \ExVal=0
