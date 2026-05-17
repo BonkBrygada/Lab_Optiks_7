@@ -854,3 +854,4497 @@ a               1.000
 b               0.967  1.000 
 c              -0.180 -0.240  1.000 
 n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:15 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:15 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:15 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:15 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:16 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:58:16 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:11 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:11 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:11 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:11 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:11 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:58 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:58 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:58 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 19:59:58 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:46 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:46 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:46 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:47 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:47 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:00:47 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:18 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:19 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:19 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:19 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:19 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:02:19 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:03:37 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:35 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:35 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:08:36 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:09:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:11:49 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:13:27 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:15:22 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:29 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:29 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:29 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:30 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:30 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:16:30 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:17:33 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:50 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:50 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:51 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:51 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:51 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:19:51 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:20:14 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:12 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:21:57 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:31 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:31 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:31 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:32 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:32 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:22:32 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:04 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:23:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:53 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 25
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.2537617616e+01  -3.36e-01  6.07e-03    6.569309e+01  -4.795794e+01   1.255257e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 22.5376
+rel. change during last iteration : -3.35997e-06
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.01214
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02444
+p-value of the Chisq distribution (FIT_P)              : 0.428219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 65.6931          +/- 0.3214       (0.4893%)
+b               = -47.9579         +/- 0.2136       (0.4454%)
+c               = 12.5526          +/- 0.2482       (1.977%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.308  1.000 
+c              -0.838  0.485  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   3 3.2905953174e+01   0.00e+00  7.30e+06    5.992804e+01   1.015516e+02   1.005619e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 32.906
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.956062
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.914054
+p-value of the Chisq distribution (FIT_P)              : 0.616536
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 59.928           +/- 0.231        (0.3855%)
+b               = 101.552          +/- 0.1421       (0.14%)
+c               = 10.0562          +/- 0.1379       (1.371%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.045  1.000 
+c              -0.753 -0.059  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 39
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   4 2.5282580076e+02  -4.87e-02  4.46e+00    8.025579e+01  -2.015495e+01   1.723534e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 252.826
+rel. change during last iteration : -4.87004e-07
+
+degrees of freedom    (FIT_NDF)                        : 36
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.65008
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.02294
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 80.2558          +/- 0.7095       (0.8841%)
+b               = -20.155          +/- 0.3234       (1.605%)
+c               = 1.72353          +/- 0.4652       (26.99%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.074  1.000 
+c              -0.800  0.002  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: f(x)
+	f(x)=a*(cos(x-b))**2+c
+fitted parameters initialized with current variable values
+
+   5 9.7644799576e+00  -3.39e-04  4.13e-04    1.799837e+01   5.863926e+01   2.724430e+01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 9.76448
+rel. change during last iteration : -3.38652e-09
+
+degrees of freedom    (FIT_NDF)                        : 17
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.757879
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.574381
+p-value of the Chisq distribution (FIT_P)              : 0.913195
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 17.9984          +/- 0.253        (1.406%)
+b               = 58.6393          +/- 0.3838       (0.6545%)
+c               = 27.2443          +/- 0.1511       (0.5547%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.815  0.114  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 15
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+  31 4.9049658176e+01  -6.36e-01  7.48e-01    2.772378e+03   2.295379e+00   1.389170e+01   1.146680e+00
+
+After 31 iterations the fit converged.
+final sum of squares of residuals : 49.0497
+rel. change during last iteration : -6.35563e-06
+
+degrees of freedom    (FIT_NDF)                        : 11
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.11165
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.45906
+p-value of the Chisq distribution (FIT_P)              : 9.26952e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2772.38          +/- 1646         (59.35%)
+b               = 2.29538          +/- 1.918        (83.57%)
+c               = 13.8917          +/- 0.6026       (4.338%)
+n               = 1.14668          +/- 0.04959      (4.324%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.971  1.000 
+c              -0.055 -0.073  1.000 
+n              -0.993 -0.965 -0.040  1.000 
+
+
+*******************************************************************************
+Sun May 17 20:25:54 2026
+
+
+FIT:    data read from ARG1 u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=a*((n**2*cos(x-b)-sqrt(n**2-(sin(x-b))**2))/(n**2*cos(x-b)+sqrt(n**2-(sin(x-b))**2)))**2+c
+fitted parameters initialized with current variable values
+
+ 184 1.1274011088e+02  -1.94e-01  2.83e+02    2.438829e+03   1.155428e+00   9.582509e+00   1.398942e+00
+
+After 184 iterations the fit converged.
+final sum of squares of residuals : 112.74
+rel. change during last iteration : -1.94087e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.94488
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.67232
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2438.83          +/- 1221         (50.06%)
+b               = 1.15543          +/- 2.336        (202.2%)
+c               = 9.58251          +/- 0.8202       (8.559%)
+n               = 1.39894          +/- 0.1235       (8.827%)
+
+correlation matrix of the fit parameters:
+                a      b      c      n      
+a               1.000 
+b               0.967  1.000 
+c              -0.180 -0.240  1.000 
+n              -0.999 -0.969  0.158  1.000 

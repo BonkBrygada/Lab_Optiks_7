@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.28)  14 MAY 2026 21:10
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.28)  17 MAY 2026 20:25
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2512,7 +2512,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4]
 
-[5]
+[5] (./pic/img1.tex)
 
 [6] (./table/horPolPinck.tex) (./chart/horPolPinck.tex
 Package pgfplots info on input line 9: Using 'lua backend=false' for plot 0 (ty
@@ -2526,37 +2526,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[7] (./table/BlackMirrorBruster.tex
+[7]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./chart/BlackMirrorBruster.tex
+[8] (./table/BlackMirrorBruster.tex) (./chart/BlackMirrorBruster.tex
 Package pgfplots info on input line 9: Using 'lua backend=false' for plot 0 (ty
 pe 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
 Package pgfplots info on input line 23: Deactivating LUA version of plot expres
 sion for plot 1 (type 'pgfplothandlerlineto'): y expression '\a *((\n ^2*cos(x-
 \b )-sqrt(\n ^2-(sin(x-\b ))^2))/(\n ^2*cos(x-\b )+sqrt(\n ^2-(sin(x-\b ))^2)))
 ^2+\c ' contains a TeX macro.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./table/PlateSeriesBruster.tex
-
-[8]) (./chart/PlateSeriesBruster.tex
-Package pgfplots info on input line 9: Using 'lua backend=false' for plot 0 (ty
-pe 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
-Package pgfplots info on input line 23: Deactivating LUA version of plot expres
-sion for plot 1 (type 'pgfplothandlerlineto'): y expression '\a *((\n ^2*cos(x-
-\b )-sqrt(\n ^2-(sin(x-\b ))^2))/(\n ^2*cos(x-\b )+sqrt(\n ^2-(sin(x-\b ))^2)))
-^2+\c ' contains a TeX macro.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 )
 
-[9]
+[9] (./table/PlateSeriesBruster.tex) (./chart/PlateSeriesBruster.tex
+Package pgfplots info on input line 9: Using 'lua backend=false' for plot 0 (ty
+pe 'pgfplothandlerdiscard'): LUA does not support error bars (yet).
+Package pgfplots info on input line 23: Deactivating LUA version of plot expres
+sion for plot 1 (type 'pgfplothandlerlineto'): y expression '\a *((\n ^2*cos(x-
+\b )-sqrt(\n ^2-(sin(x-\b ))^2))/(\n ^2*cos(x-\b )+sqrt(\n ^2-(sin(x-\b ))^2)))
+^2+\c ' contains a TeX macro.
+)
 
 [10]
 
@@ -2566,18 +2554,18 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7D15736E4DBE4E78FC2922342B71E7B;4091.
+(rerunfilecheck)             Checksum: 9819E2373D0A5665DAAB3B5A86504BCF;4091.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47317 strings out of 476291
+ 47392 strings out of 476291
  382243,2373549 words of node,token memory allocated
- 698 words of node memory still in use:
+ 728 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 3 glyph, 40
- attribute, 59 glue_spec, 22 attribute_list, 2 write nodes
-   avail lists: 1:5,2:53074,3:15549,4:2119,5:747,6:51,7:14873,8:126,9:5883,10:24
+ attribute, 65 glue_spec, 22 attribute_list, 2 write nodes
+   avail lists: 1:5,2:53075,3:15549,4:2119,5:743,6:51,7:14873,8:126,9:5883,10:24
 ,11:1052
- 68304 multiletter control sequences out of 65536+600000
+ 68372 multiletter control sequences out of 65536+600000
  103 fonts using 61069991 bytes
  106i,23n,116p,1607b,3125s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMath-Bo
@@ -2586,10 +2574,10 @@ ok.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputermodern/NewCM
 NewCMMath-Book.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcomputer
 modern/NewCM10-Book.otf><c:/texlive/2025/texmf-dist/fonts/opentype/public/newcom
 putermodern/NewCM10-Bold.otf>
-Output written on main.pdf (11 pages, 171524 bytes).
+Output written on main.pdf (11 pages, 173505 bytes).
 
-PDF statistics: 192 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 131072)
+PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 131072)
  128 words of extra memory for PDF output out of 10000 (max. 100000000)
 
